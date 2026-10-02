@@ -1,0 +1,116 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Hero */
+
+.hero {
+    background: #f1f5f9;
+    padding: 80px 20px;
+}
+
+
+/* Slider */
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* Product Images */
+
+.product-img {
+    height: 230px;
+    object-fit: cover;
+}
+
+
+/* Product Cards */
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Contact */
+
+.contact-section {
+    background: #f8f9fa;
+}
+
+
+/* Dark Mode */
+
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode .hero {
+    background: #222;
+}
+
+.dark-mode .contact-section {
+    background: #222;
+}
+
+.dark-mode .card {
+    background: #1f1f1f;
+    color: white;
+}
+
+.dark-mode .form-control {
+    background: #333;
+    color: white;
+    border-color: #555;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .carousel img {
+        height: 250px;
+    }
+
+    .product-img {
+        height: 200px;
+    }
+
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 576px) {
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .carousel img {
+        height: 200px;
+    }
+
+}
+
